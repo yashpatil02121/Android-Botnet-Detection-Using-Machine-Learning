@@ -1,0 +1,5 @@
+This code appears to be a program that performs mobile botnet detection using machine learning techniques. It imports various libraries such as subprocess, tkinter, numpy, matplotlib, pandas, and sklearn. It also reads data from a CSV file called new1.csv.
+
+The program does some data preprocessing, including label encoding and one-hot encoding of some columns of the dataset. It then performs manual feature selection by dropping certain columns of the dataset that are not useful for the detection task.
+
+The PCA algorithm is used for dimensionality reduction, and the program also calculates some metrics such as confusion matrix, classification report, and accuracy score to evaluate the performance of the machine learning model. Finally, the program displays the results using a tkinter GUI.

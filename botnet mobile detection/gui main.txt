@@ -1,0 +1,5 @@
+The code is a Python program that creates a GUI application using the tkinter library. It imports the necessary modules, sets up the GUI window, and creates various GUI elements such as labels, buttons, and frames, with different properties and functionalities. The GUI window includes a background image and provides options to login, register, or exit the system. The program also includes functions to call other Python scripts for login, registration, or GUI_main. Finally, the GUI window runs continuously using the root.mainloop() method until the user closes it.
+
+
+
+

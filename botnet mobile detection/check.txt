@@ -1,0 +1,5 @@
+This code is a Python script that creates a graphical user interface (GUI) for detecting botnet activity on mobile devices. It uses the tkinter library to create the interface, as well as several other libraries such as numpy, pandas, and scikit-learn for data manipulation and machine learning.
+
+The main function of the code is the "Detect" function, which takes inputs from the GUI and uses a pre-trained machine learning model (loaded from a joblib file) to predict whether botnet activity is present. Depending on the model prediction, the GUI displays either "Botnet Detected" or "Botnet Not Detected".
+
+The GUI itself consists of several input fields for various mobile device actions such as sending SMS, accessing the camera, or low battery status, among others. Each field is associated with a corresponding variable that is assigned a value by the user, and these values are used as inputs for the machine learning model in the "Detect" function.

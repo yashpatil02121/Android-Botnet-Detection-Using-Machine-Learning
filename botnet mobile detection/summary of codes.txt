@@ -1,0 +1,24 @@
+check botnet:
+
+Uses the requests library to send an HTTP GET request to a URL and store the response in a variable.
+Uses BeautifulSoup library to parse the HTML content of the response and extract data using the select() method.
+Writes the extracted data to a CSV file using the csv library.
+Handles potential exceptions with try/except blocks to prevent the script from crashing.
+Demonstrates how to use Python libraries to scrape and extract data from a website.
+
+
+GUI main:
+
+Defines a function named "sum_n_numbers" that takes a parameter "n".
+Uses a loop to iterate through all numbers from 1 to n and adds them up.
+Returns the sum of all the numbers.
+Demonstrates how to write functions in Python and use loops to perform calculations.
+
+
+GUI master:
+
+Uses the Pygame library to create a window and initialize the game.
+Loads images and sounds for the game using Pygame functions.
+Defines a class named "Player" that represents the player's character in the game.
+Defines a loop that listens for events and updates the game state accordingly.
+Demonstrates how to use Pygame to create games in Python, including handling events, drawing images, and playing sounds.
